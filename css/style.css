@@ -1,0 +1,158 @@
+::selection {
+	background: #5d5d5d;
+}
+
+::-moz-selection {
+	background: #2d2d2d;
+}
+
+html, body, .container {
+  height: 100%;
+}
+
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body { 
+  font: 18px "Raleway", serif;
+  line-height: 23px;
+  color: #ffffff;
+  background: url(../images/background_full.jpg);
+  background-size: cover;
+  background-color: #00b2f8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 0.75em;
+  text-transform: uppercase;
+	margin-top: 1em;
+	display:block;
+	text-align:center;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: #ff9000;
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0 0 15px 0;
+  max-width: 36em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+blockquote {
+  display: block;
+  max-width: 30em;
+  margin: 5px 15px 5px 0px;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);  
+  color: #fdfdfd;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.2em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.icon {
+	width: 48px;
+	height: 48px;
+}
+
+.icon-link {
+	display:block;
+	text-align: center;
+}
+
+.container {
+	display: table;
+  padding-top: 4em;
+}
+
+.content {
+	display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 0 0 1.5em;
+}
+
+.subtitle {
+  margin: 50px auto;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  color: #000000;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 530px) {
+
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+
+  body {
+  	background: url(../images/background_small.jpg);
+  	background-size: cover;
+  	background-color: #00b2f8;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  }
+
+  body h1 {
+    font-size: 4em;
+    line-height: 1em;
+  } 
+
+  .content, blockquote {  
+    display: block;
+    margin: 0 auto;
+    vertical-align: baseline;
+  	padding: 0.5em 0 0 0.5em;
+  }
+
+  blockquote {
+    width: 250px;
+    margin: 0px auto;
+    font-size: 1em;
+    line-height: 1em;
+    background-color: transparent;
+    padding: 0 0 0 0;
+  }
+
+  .subtitle {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  p {
+    max-width: 300px;
+    margin: 0 0px 15px 0;
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+
+  html, body, .container {
+    height: auto;
+  }
+}
